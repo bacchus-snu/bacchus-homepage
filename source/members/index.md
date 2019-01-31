@@ -6,11 +6,14 @@ updated: 2
 
 ## Deputy
 
-* 대표   박재현 skystar@bacchus.snucse.org
-* 부대표   정연규 ancc@bacchus.snucse.org
+* 대표   성용운 yseong@bacchus.snucse.org
+* 부대표 최창민 cmchoi9901@bacchus.snucse.org
 
 ## Current
 
+* 정연규 ancc@bacchus.snucse.org
+* 박재현 skystar@bacchus.snucse.org
+* 정연규 ancc@bacchus.snucse.org
 * 배새봄 newspring15@bacchus.snucse.org
 * 정모두하리 moduhary@bacchus.snucse.org
 * 최원석 MK_RD@bacchus.snucse.org
@@ -20,7 +23,6 @@ updated: 2
 * 이승우 lsw8075@bacchus.snucse.org
 * 구본호 ialy@bacchus.snucse.org
 * 윤지학 cubelover@bacchus.snucse.org
-* 최창민 cmchoi9901@bacchus.snucse.org
 * 김영현 kipa00@bacchus.snucse.org
 * 김혜민 hyeminkim@bacchus.snucse.org
 * 이영찬 edwardycl@bacchus.snucse.org
@@ -32,7 +34,6 @@ updated: 2
 * 서희원 h2u@bacchus.snucse.org
 * 이동현 dominic2009@bacchus.snucse.org
 * 백우현 baneling100@bacchus.snucse.org
-* 성용운 yseong@bacchus.snucse.org
 * 오현종 ohj3258@bacchus.snucse.org
 * 최현지 hjbc0921@bacchus.snucse.org
 * 김태영 u.tokyo0319@bacchus.snucse.org

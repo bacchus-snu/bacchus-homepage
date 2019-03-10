@@ -29,25 +29,9 @@ updated: 2
 
 ## Intern
 
-* 이종민 sdrjseka96@bacchus.snucse.org
 * 오평석 pyeongseok@bacchus.snucse.org
-* 서희원 h2u@bacchus.snucse.org
-* 이동현 dominic2009@bacchus.snucse.org
-* 백우현 baneling100@bacchus.snucse.org
 * 오현종 ohj3258@bacchus.snucse.org
-* 최현지 hjbc0921@bacchus.snucse.org
 * 김태영 u.tokyo0319@bacchus.snucse.org
-* 김상민 ksme456@bacchus.snucse.org
-* 전민혁 integral99@bacchus.snucse.org
-* 이효진 Geronimo@bacchus.snucse.org
-* 신재호 jh2177@bacchus.snucse.org
-* 현지훈 peterpan1998@bacchus.snucse.org
-* 권상우 kwonsw055@bacchus.snucse.org
-* 이재영 jerry96@bacchus.snucse.org
-* 신승원 namnamseo@bacchus.snucse.org
-* 이세리 sally20921@bacchus.snucse.org
-* 김성은 cobaltblu27@bacchus.snucse.org
-* 이동학 PORORO@bacchus.snucse.org
 
 ## Dispatched
 

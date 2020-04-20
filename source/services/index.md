@@ -1,7 +1,7 @@
 ---
 title: Services
-date: 2020-03-17 22:27:00
-updated: 2
+date: 2020-04-20 16:20:00
+updated: 3
 subtitle: 서비스 이용 안내
 ---
 
@@ -74,9 +74,9 @@ Linux 실습을 위한 서버입니다.
 
 * OS: Ubuntu 16.04
 
-### 6 GPU machine
+### GPU machine
 
-* asahi.snucse.org (현재 네트워크 불량으로 점검 중)
+* asahi.snucse.org
 * bernini.snucse.org
 * cojito.snucse.org
 * derby.snucse.org
@@ -85,10 +85,12 @@ Linux 실습을 위한 서버입니다.
 
 실습을 위한 GPU 머신을 대여해드립니다.
 
-* OS: Ubuntu 16.04
-* GPU: GTX 1080
+* OS: Arch Linux
+* GPU: Nvidia Geforce GTX 1080
 * CPU: i7-7700@3.6GHz
 * RAM: 16GB
+
+[2020년 봄학기 GPU 서버 이용 신청을 받고 있습니다.](https://bacchus.snucse.org/announcement/20200417gpu)
 
 ## 웹 페이지
 

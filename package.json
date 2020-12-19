@@ -19,5 +19,9 @@
   "devDependencies": {
     "hexo-cli": "^4.2.0",
     "hexo-server": "^2.0.0"
+  },
+  "scripts": {
+    "generate": "hexo generate",
+    "server": "hexo server"
   }
 }

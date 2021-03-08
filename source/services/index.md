@@ -90,8 +90,6 @@ Linux 실습을 위한 서버입니다.
 * CPU: i7-7700@3.6GHz
 * RAM: 16GB
 
-[2020년 봄학기 GPU 서버 이용 신청을 받고 있습니다.](https://bacchus.snucse.org/announcement/20200417gpu)
-
 ## 웹 페이지
 
 다음의 페이지의 관리를 맡고 있습니다.

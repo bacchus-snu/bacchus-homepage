@@ -27,6 +27,7 @@ jobs:
       - name: Build
         run: |
           npm install
+          sudo timedatectl set-timezone Asia/Seoul
           npm run generate
       - name: Commit build artifacts
         run: |

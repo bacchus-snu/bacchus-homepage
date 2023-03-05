@@ -9,8 +9,30 @@
     <atom:link href="https://bacchus.snucse.org/feed.xml" rel="self" type="application/rss+xml"/>
     
     <description>서울대학교 컴퓨터공학부 관리자 그룹</description>
-    <pubDate>Mon, 02 Jan 2023 09:56:36 GMT</pubDate>
+    <pubDate>Sun, 05 Mar 2023 09:10:49 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>바쿠스에서 2023년 봄학기 신입회원을 모집합니다!</title>
+      <link>https://bacchus.snucse.org/announcement/2022-03-05-recruit/</link>
+      <guid>https://bacchus.snucse.org/announcement/2022-03-05-recruit/</guid>
+      <pubDate>Sat, 04 Mar 2023 18:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;컴퓨터공학부-시스템관리자-동아리-바쿠스-신입회원-모집&quot;&gt;&lt;a href=&quot;#컴퓨터공학부-시스템관리자-동아리-바쿠스-신입회원-모집&quot; class=&quot;headerlink&quot; title=&quot;컴퓨터공학부 시스템관리자 동아리 바쿠스 신입회원 모집&quot;&gt;&lt;/a</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="컴퓨터공학부-시스템관리자-동아리-바쿠스-신입회원-모집"><a href="#컴퓨터공학부-시스템관리자-동아리-바쿠스-신입회원-모집" class="headerlink" title="컴퓨터공학부 시스템관리자 동아리 바쿠스 신입회원 모집"></a>컴퓨터공학부 시스템관리자 동아리 바쿠스 신입회원 모집</h1><p>안녕하세요! 여러분과 함께하는 관리자모임 바쿠스입니다.</p><p>바쿠스에서 23학년도 봄학기 신입회원을 모집합니다!</p><h2 id="‘바쿠스’는-어떤-동아리이고-무엇을-하나요"><a href="#‘바쿠스’는-어떤-동아리이고-무엇을-하나요" class="headerlink" title="‘바쿠스’는 어떤 동아리이고 무엇을 하나요?"></a>‘바쿠스’는 어떤 동아리이고 무엇을 하나요?</h2><ul><li>바쿠스는 컴퓨터공학부의 시스템 관리자 동아리입니다.</li><li>컴퓨터공학부 실습실 / 서버 / 홈페이지와 같은 자원을 운영하고 있습니다.</li><li>바쿠스 클라우드 서비스(Argo CD, Vaultwarden)를 운영하고 있습니다. (데브시스터즈의 지원을 받고 있어요!)</li><li>바쿠스에는 온보딩, 인프라, 클라우드 팀이 있으며 나눠서 활동하고 있습니다.</li><li>실력있는 바쿠스 회원들에게 시스템 관리 기술을 배울 수 있습니다.</li><li>현업 개발자인 분들을 포함하여 여러 분야에 뛰어난 실력을 갖고 있는 개발자들이 있습니다!</li></ul><h2 id="팀-소개"><a href="#팀-소개" class="headerlink" title="팀 소개"></a>팀 소개</h2><h3 id="온보딩-팀-소개"><a href="#온보딩-팀-소개" class="headerlink" title="온보딩 팀 소개"></a>온보딩 팀 소개</h3><p>온보딩 팀은 바쿠스와 사람들을 연결합니다. 바쿠스 서비스를 홍보하고, 바쿠스의 멤버들을 챙깁니다. 바쿠스의 사람들이 서로 기술들을 공유하고, 회원들이 모두 성장할 수 있도록 돕습니다. 다양한 기술들을 빠르게 익히고, 사람들과 같이 일하며 힘을 얻는 분들을 환영합니다 :)</p><h3 id="인프라-팀-소개"><a href="#인프라-팀-소개" class="headerlink" title="인프라 팀 소개"></a>인프라 팀 소개</h3><p>인프라팀은 교내 서버실에 있는 서버와 실습실 PC를 관리합니다. 60여대의 컴퓨터와 10여대의 서버들을 바쿠스 방 안에서 관리합니다. 또, 서버가 고장나더라도 전체 서비스가 잘 동작하도록 다양한 기술들을 사용합니다. 서버를 직접 만지는 시스템 관리자 경험은 바쿠스 인프라팀에서만 할 수 있습니다!</p><p>사용 기술: KVM, Ceph, Proxmox, Ansible, btrfs</p><h3 id="클라우드-팀-소개"><a href="#클라우드-팀-소개" class="headerlink" title="클라우드 팀 소개"></a>클라우드 팀 소개</h3><p>바쿠스에서 사용하는 서비스들을 Kubernetes로 옮기고 있습니다. 팀 멤버들은 바쿠스 서비스들이 학내 서버와 클라우드를 오가며 운영되게 만듭니다. 또한, 바쿠스의 인프라와 서비스를 모니터링하는 Prometheus + Grafana 서비스를 운영하고 있습니다. DevOps를 체험하고 싶으신 모든 분들을 환영합니다 :)</p><p>사용 기술 : Docker, Container, Kubernetes, Terraform, GitHub Actions, ArgoCD, Prometheus, Grafana.</p><h2 id="지원-요건"><a href="#지원-요건" class="headerlink" title="지원 요건"></a>지원 요건</h2><ul><li>2개 학기 이상 활동이 가능하신 분</li><li>학기 중 매주 목요일 저녁 신입교육(대면)에 참여 가능하신 분 (시험기간 제외)</li></ul><h2 id="지원-방법"><a href="#지원-방법" class="headerlink" title="지원 방법"></a>지원 방법</h2><ul><li>3월 16일까지 <a href="https://forms.gle/wjcTLEy2ps6PggT47">Goolge form</a>을 작성해주세요.</li><li>총회/신입생 환영회 (3월 17일 저녁 6시)와 오리엔테이션 (3월 19일 오후 2시)에 꼭 참여해주셔야 합니다.</li></ul><h2 id="문의"><a href="#문의" class="headerlink" title="문의"></a>문의</h2><ul><li>대표 성용운</li><li>부대표 오현승</li><li>담당 박찬우</li><li><a href="mailto:&#x63;&#111;&#110;&#116;&#97;&#x63;&#116;&#x40;&#98;&#x61;&#x63;&#x63;&#104;&#x75;&#x73;&#x2e;&#x73;&#110;&#x75;&#x63;&#x73;&#x65;&#46;&#x6f;&#x72;&#103;">&#x63;&#111;&#110;&#116;&#97;&#x63;&#116;&#x40;&#98;&#x61;&#x63;&#x63;&#104;&#x75;&#x73;&#x2e;&#x73;&#110;&#x75;&#x63;&#x73;&#x65;&#46;&#x6f;&#x72;&#103;</a></li></ul>]]></content:encoded>
+      
+      
+      
+      
+      <comments>https://bacchus.snucse.org/announcement/2022-03-05-recruit/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>바쿠스에서 2022년 가을학기 신입회원을 모집합니다!</title>
@@ -177,7 +199,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>안녕하세요, 여러분과 함께 하는 관리자 모임 바쿠스입니다.</p><p>실습실 리눅스 컴퓨터의 프로필 서버의 점검을 진행할 예정입니다.</p><p>점검을 진행하는 동안 과방(301동 314호) 및 하드웨어 실습실(302동 310-2호)에 있는 컴퓨터 사용이 제한됩니다.</p><ul><li>대상: 과방 리눅스 컴퓨터 및 하드웨어 실습실 컴퓨터 전체</li><li>기간: 2021-08-30(월) 00:00 ~ 2021-08-31(화) 23:00</li></ul><p>기타 문의 사항은 <a href="mailto:&#99;&#x6f;&#x6e;&#116;&#97;&#x63;&#x74;&#64;&#x62;&#x61;&#99;&#99;&#x68;&#117;&#115;&#46;&#x73;&#110;&#117;&#x63;&#x73;&#101;&#x2e;&#x6f;&#114;&#103;">&#99;&#x6f;&#x6e;&#116;&#97;&#x63;&#x74;&#64;&#x62;&#x61;&#99;&#99;&#x68;&#117;&#115;&#46;&#x73;&#110;&#117;&#x63;&#x73;&#101;&#x2e;&#x6f;&#114;&#103;</a> 로 보내주시기 바랍니다. 감사합니다.</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>안녕하세요, 여러분과 함께 하는 관리자 모임 바쿠스입니다.</p><p>실습실 리눅스 컴퓨터의 프로필 서버의 점검을 진행할 예정입니다.</p><p>점검을 진행하는 동안 과방(301동 314호) 및 하드웨어 실습실(302동 310-2호)에 있는 컴퓨터 사용이 제한됩니다.</p><ul><li>대상: 과방 리눅스 컴퓨터 및 하드웨어 실습실 컴퓨터 전체</li><li>기간: 2021-08-30(월) 00:00 ~ 2021-08-31(화) 23:00</li></ul><p>기타 문의 사항은 <a href="mailto:&#99;&#111;&#110;&#x74;&#97;&#x63;&#116;&#64;&#x62;&#x61;&#99;&#x63;&#104;&#x75;&#115;&#x2e;&#x73;&#x6e;&#117;&#x63;&#115;&#101;&#46;&#111;&#x72;&#103;">&#99;&#111;&#110;&#x74;&#97;&#x63;&#116;&#64;&#x62;&#x61;&#99;&#x63;&#104;&#x75;&#115;&#x2e;&#x73;&#x6e;&#117;&#x63;&#115;&#101;&#46;&#111;&#x72;&#103;</a> 로 보내주시기 바랍니다. 감사합니다.</p>]]></content:encoded>
       
       
       
@@ -202,7 +224,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>안녕하세요, 여러분과 함께 하는 관리자 모임 바쿠스입니다.</p><p>martini 서버 점검을 진행할 예정입니다. 점검 기간동안 해당 서버 사용이 제한되니 작업하시던 내용은 미리 저장해주시기 바랍니다.</p><ul><li>대상: martini</li><li>기간: 2021-08-08(일) 15:00 ~ 24:00</li></ul><p>이번 점검을 통해 martini 서버의 ubuntu 버전이 18.04에서 20.04로 업그레이드될 예정입니다.</p><p>기타 문의 사항은 <a href="mailto:&#x63;&#111;&#110;&#116;&#x61;&#x63;&#116;&#64;&#98;&#x61;&#x63;&#99;&#x68;&#x75;&#115;&#x2e;&#x73;&#x6e;&#x75;&#99;&#115;&#x65;&#46;&#x6f;&#114;&#x67;">&#x63;&#111;&#110;&#116;&#x61;&#x63;&#116;&#64;&#98;&#x61;&#x63;&#99;&#x68;&#x75;&#115;&#x2e;&#x73;&#x6e;&#x75;&#99;&#115;&#x65;&#46;&#x6f;&#114;&#x67;</a> 로 보내주시기 바랍니다. 감사합니다.</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>안녕하세요, 여러분과 함께 하는 관리자 모임 바쿠스입니다.</p><p>martini 서버 점검을 진행할 예정입니다. 점검 기간동안 해당 서버 사용이 제한되니 작업하시던 내용은 미리 저장해주시기 바랍니다.</p><ul><li>대상: martini</li><li>기간: 2021-08-08(일) 15:00 ~ 24:00</li></ul><p>이번 점검을 통해 martini 서버의 ubuntu 버전이 18.04에서 20.04로 업그레이드될 예정입니다.</p><p>기타 문의 사항은 <a href="mailto:&#x63;&#111;&#x6e;&#x74;&#x61;&#x63;&#116;&#64;&#98;&#x61;&#x63;&#99;&#104;&#117;&#x73;&#46;&#x73;&#110;&#117;&#99;&#115;&#101;&#46;&#x6f;&#x72;&#x67;">&#x63;&#111;&#x6e;&#x74;&#x61;&#x63;&#116;&#64;&#98;&#x61;&#x63;&#99;&#104;&#117;&#x73;&#46;&#x73;&#110;&#117;&#99;&#115;&#101;&#46;&#x6f;&#x72;&#x67;</a> 로 보내주시기 바랍니다. 감사합니다.</p>]]></content:encoded>
       
       
       
@@ -232,32 +254,6 @@
       
       
       <comments>https://bacchus.snucse.org/announcement/2021-03-09-recruit/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>2021년 봄학기 GPU 서버 계정 신청 안내</title>
-      <link>https://bacchus.snucse.org/announcement/20210228gpu/</link>
-      <guid>https://bacchus.snucse.org/announcement/20210228gpu/</guid>
-      <pubDate>Sat, 27 Feb 2021 15:00:00 GMT</pubDate>
-      
-        
-        
-      <description>&lt;p&gt;안녕하세요, 여러분과 함께 하는 관리자모임 바쿠스입니다.&lt;/p&gt;
-&lt;p&gt;2021년 봄학기 GPU 서버 이용 신청을 받고 있습니다. 이용 가능한 서버는 아래와 같습니다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GTX 1080 서버&lt;ul&gt;
-&lt;li&gt;asahi.snucs</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<p>안녕하세요, 여러분과 함께 하는 관리자모임 바쿠스입니다.</p><p>2021년 봄학기 GPU 서버 이용 신청을 받고 있습니다. 이용 가능한 서버는 아래와 같습니다.</p><ul><li>GTX 1080 서버<ul><li>asahi.snucse.org</li><li>bernini.snucse.org</li><li>cojito.snucse.org</li><li>derby.snucse.org</li><li>eggnog.snucse.org</li><li>faust.snucse.org</li></ul></li></ul><p>위 서버의 스펙은 다음과 같습니다.</p><ul><li>OS: Arch Linux</li><li>GPU: Nvidia Geforce GTX 1080</li><li>CPU: <a href="mailto:&#x69;&#x37;&#45;&#55;&#x37;&#x30;&#x30;&#x40;&#x33;&#46;&#x36;&#x47;&#72;&#122;">&#x69;&#x37;&#45;&#55;&#x37;&#x30;&#x30;&#x40;&#x33;&#46;&#x36;&#x47;&#72;&#122;</a></li><li>RAM: 16GB</li></ul><p>발급된 계정은 2021년 8월 13일까지 이용 가능합니다. 기간 만료 후 계정이 삭제되므로, 그 전에 필요한 모든 데이터를 백업해두시길 바랍니다.</p><p><a href="https://forms.gle/TKPMWhBaE915XWPT6">이 설문조사</a>를 통해서 이용을 신청하실 수 있습니다.</p><p>설문 작성 후 <a href="https://id.snucse.org/group">통합계정 관리 사이트</a>에서 GPU 서버 사용자 그룹에 가입 신청을 해주시기 바랍니다.</p><p>모든 서버의 홈 디렉토리는 네트워크를 통해 공유되어 있으며, 사용자는 모든 서버에 접속이 가능합니다. 단, 한 사람이 서버를 독점하는 것을 방지하기 위해 한 번에 한 서버만을 사용하는 것을 허가합니다. 여러분의 양해 바랍니다. 보다 자세한 정보는 <a href="/etc/gpu-server-user-agreement/">이용 약관 및 안내</a>를 참고하여 주시기 바랍니다.</p><p>감사합니다.</p>]]></content:encoded>
-      
-      
-      
-      
-      <comments>https://bacchus.snucse.org/announcement/20210228gpu/#disqus_thread</comments>
       
     </item>
     

@@ -1,10 +1,10 @@
 ---
 title: Members
-date: 2024-12-27
+date: 2025-06-24
 ---
 
 ## Deputy
 
 * 대표 김지원 jeewonbob@bacchus.snucse.org
-* 부대표 류명현 paulryu@bacchus.snucse.org
+* 부대표 임찬영 asp345@bacchus.snucse.org
 

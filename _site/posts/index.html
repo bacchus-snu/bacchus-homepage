@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>공지사항 - Bacchus</title>
+<meta name="description" content="서울대학교 컴퓨터공학부 관리자 그룹">
+<link rel="icon" type="image/png" href="/assets/images/favicon.png">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    bacchus: {
+                        50: '#ecfeff', 100: '#cffafe', 200: '#a5f3fc', 300: '#67e8f9',
+                        400: '#22d3ee', 500: '#06b6d4', 600: '#0891b2', 700: '#0e7490',
+                        800: '#155e75', 900: '#164e63',
+                    }
+                }
+            }
+        }
+    }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+    body { font-family: 'Noto Sans KR', sans-serif; }
+    .prose h1, .prose h2, .prose h3, .prose h4 { font-weight: 600; margin-top: 1.5em; margin-bottom: 0.5em; }
+    .prose h2 { font-size: 1.5em; }
+    .prose h3 { font-size: 1.25em; }
+    .prose p { margin-bottom: 1em; }
+    .prose ul, .prose ol { margin-left: 1.5em; margin-bottom: 1em; }
+    .prose li { margin-bottom: 0.25em; }
+    .prose a { color: #0891b2; }
+    .prose a:hover { text-decoration: underline; }
+</style>
+
+</head>
+<body class="bg-white">
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+            <div class="flex items-center">
+                <a href="/" class="flex items-center space-x-2">
+                    <img src="/assets/images/logo.png" alt="Bacchus Logo" class="w-8 h-8">
+                    <span class="text-xl font-bold text-gray-900">Bacchus</span>
+                </a>
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="/" class="text-gray-600 hover:text-bacchus-600 transition">홈</a>
+                <a href="/about/" class="text-gray-600 hover:text-bacchus-600 transition">소개</a>
+                <a href="/services/" class="text-gray-600 hover:text-bacchus-600 transition">서비스</a>
+                <a href="/members/" class="text-gray-600 hover:text-bacchus-600 transition">구성원</a>
+                <a href="/posts/" class="text-bacchus-600 font-medium transition">공지사항</a>
+            </div>
+            <div class="md:hidden flex items-center">
+                <button id="mobile-menu-btn" class="text-gray-600 hover:text-bacchus-600">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+        <div class="px-4 py-3 space-y-2">
+            <a href="/" class="block py-2 text-gray-600">홈</a>
+            <a href="/about/" class="block py-2 text-gray-600">소개</a>
+            <a href="/services/" class="block py-2 text-gray-600">서비스</a>
+            <a href="/members/" class="block py-2 text-gray-600">구성원</a>
+            <a href="/posts/" class="block py-2 text-bacchus-600 font-medium">공지사항</a>
+        </div>
+    </div>
+</nav>
+
+    <section class="bg-gradient-to-br from-bacchus-600 to-bacchus-800 py-16 md:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">공지사항</h1>
+        <p class="text-bacchus-100 text-lg max-w-2xl mx-auto">바쿠스의 최신 소식과 공지</p>
+    </div>
+</section>
+
+<section class="py-16 md:py-24">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        
+        <div class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                <span class="bg-bacchus-600 text-white px-3 py-1 rounded-lg mr-3">2024</span>
+            </h2>
+            <div class="space-y-4">
+                
+                <a href="/2024-09-18-sgs3-open/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2024-09-18</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">SNUCSE GPU Service (SGS) 3.0 오픈 안내</h3>
+                </a>
+                
+            </div>
+        </div>
+        
+        <div class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                <span class="bg-gray-700 text-white px-3 py-1 rounded-lg mr-3">2023</span>
+            </h2>
+            <div class="space-y-4">
+                
+                <a href="/2023-11-24-seminar/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2023-11-24</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">2023년 가을학기 세미나</h3>
+                </a>
+                
+                <a href="/2023-09-05-recruit/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2023-09-05</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">바쿠스에서 2023년 가을학기 신입회원을 모집합니다!</h3>
+                </a>
+                
+                <a href="/2023-05-18-seminar/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2023-05-18</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">2023년 봄학기 세미나1</h3>
+                </a>
+                
+                <a href="/2023-03-19-gpu/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2023-03-19</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">2023년 봄학기 GPU 서버 계정 신청 안내</h3>
+                </a>
+                
+                <a href="/2023-03-05-recruit/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2023-03-05</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">바쿠스에서 2023년 봄학기 신입회원을 모집합니다!</h3>
+                </a>
+                
+            </div>
+        </div>
+        
+        <div class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                <span class="bg-gray-700 text-white px-3 py-1 rounded-lg mr-3">2022</span>
+            </h2>
+            <div class="space-y-4">
+                
+                <a href="/2022-09-19-recruit/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2022-09-19</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">바쿠스에서 2022년 가을학기 신입회원을 모집합니다!</h3>
+                </a>
+                
+                <a href="/2022-09-08-gpu/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2022-09-08</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">2022년 가을학기 GPU 서버 계정 신청 안내</h3>
+                </a>
+                
+                <a href="/2022-03-08-recruit/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2022-03-08</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">바쿠스에서 2022년 봄학기 신입회원을 모집합니다!</h3>
+                </a>
+                
+                <a href="/2022-03-07-gpu/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2022-03-07</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">2022년 봄학기 GPU 서버 계정 신청 안내</h3>
+                </a>
+                
+            </div>
+        </div>
+        
+        <div class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                <span class="bg-gray-700 text-white px-3 py-1 rounded-lg mr-3">2021</span>
+            </h2>
+            <div class="space-y-4">
+                
+                <a href="/2021-09-28-recruit/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2021-09-28</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">바쿠스에서 2021년 가을학기 신입회원을 모집합니다!</h3>
+                </a>
+                
+                <a href="/2021-09-12-gpu/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2021-09-12</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">2021년 가을학기 GPU 서버 계정 신청 안내</h3>
+                </a>
+                
+                <a href="/2021-08-30-announce/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2021-08-30</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">실습실 리눅스 프로필 서버 점검 안내</h3>
+                </a>
+                
+                <a href="/2021-08-01-announce/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2021-08-01</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">martini 점검 안내</h3>
+                </a>
+                
+                <a href="/2021-03-10-recruit/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2021-03-10</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">바쿠스에서 2021년 봄학기 신입회원을 모집합니다!</h3>
+                </a>
+                
+                <a href="/2021-02-28-gpu/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2021-02-28</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">2021년 봄학기 GPU 서버 계정 신청 안내</h3>
+                </a>
+                
+                <a href="/2021-02-28-gpu-server-user-agreement/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2021-02-28</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">컴퓨터 공학부 GPU 서버 이용 약관 및 사용 안내</h3>
+                </a>
+                
+            </div>
+        </div>
+        
+        <div class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                <span class="bg-gray-700 text-white px-3 py-1 rounded-lg mr-3">2020</span>
+            </h2>
+            <div class="space-y-4">
+                
+                <a href="/2020-12-21-maintenance/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2020-12-21</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">바쿠스 서버 점검 안내</h3>
+                </a>
+                
+                <a href="/2020-09-10-recruit/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2020-09-10</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">바쿠스에서 2020년 가을학기 신입회원을 모집합니다!</h3>
+                </a>
+                
+                <a href="/2020-08-17-gpu/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2020-08-17</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">GPU 서버 계정 신청 안내</h3>
+                </a>
+                
+                <a href="/2020-04-17-gpu/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2020-04-17</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">GPU 서버 계정 신청 안내</h3>
+                </a>
+                
+                <a href="/2020-03-15-recruit/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2020-03-15</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">바쿠스에서 2020년 신입회원을 모집합니다!</h3>
+                </a>
+                
+            </div>
+        </div>
+        
+        <div class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                <span class="bg-gray-700 text-white px-3 py-1 rounded-lg mr-3">2019</span>
+            </h2>
+            <div class="space-y-4">
+                
+                <a href="/2019-10-15-gpu/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2019-10-15</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">GPU 서버 계정 신청 안내</h3>
+                </a>
+                
+                <a href="/2019-08-07-server/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2019-08-07</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">martini, mimosa 점검 안내</h3>
+                </a>
+                
+                <a href="/2019-08-01-id-instructions/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2019-08-01</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">컴퓨터공학부 통합계정 그룹 관리 시스템 사용 안내서</h3>
+                </a>
+                
+                <a href="/2019-05-20-security/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2019-05-20</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">마티니 서버 외부망 차단 안내</h3>
+                </a>
+                
+                <a href="/2019-03-16-recruit/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2019-03-16</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">바쿠스에서 신입회원을 모집합니다!</h3>
+                </a>
+                
+                <a href="/2019-03-15-gpu/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2019-03-15</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">GPU 서버 계정 신청 안내</h3>
+                </a>
+                
+                <a href="/2019-02-01-2019-1-reinstall/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2019-02-01</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">martini 밎 mimosa 점검 안내</h3>
+                </a>
+                
+            </div>
+        </div>
+        
+        <div class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                <span class="bg-gray-700 text-white px-3 py-1 rounded-lg mr-3">2018</span>
+            </h2>
+            <div class="space-y-4">
+                
+                <a href="/2018-12-29-announce/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2018-12-29</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">302동 정전으로 인한 서비스 중단 안내</h3>
+                </a>
+                
+                <a href="/2018-12-17-announce/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2018-12-17</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">martini 정상화 안내 및 보안 권고</h3>
+                </a>
+                
+                <a href="/2018-12-08-announce/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2018-12-08</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">martini 접속 장애 안내</h3>
+                </a>
+                
+                <a href="/2018-11-14-announce/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2018-11-14</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">GPU 서버 보안 업데이트 안내</h3>
+                </a>
+                
+                <a href="/2018-10-11-gpu/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2018-10-11</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">GPU 서버 계정 신청 안내</h3>
+                </a>
+                
+                <a href="/2018-03-31-gpu/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2018-03-31</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">GPU 서버 계정 신청 안내</h3>
+                </a>
+                
+                <a href="/2018-03-24-announce/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2018-03-24</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">네트워크 중단 일정 안내</h3>
+                </a>
+                
+                <a href="/2018-03-17-recruit/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2018-03-17</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">바쿠스에서 신입 회원을 모집합니다!</h3>
+                </a>
+                
+                <a href="/2018-02-22-announce/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2018-02-22</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">보안 업데이트 안내</h3>
+                </a>
+                
+                <a href="/2018-02-13-announcement/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2018-02-13</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">스누씨 학외 접속 장애 안내</h3>
+                </a>
+                
+                <a href="/2018-01-13-announce/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2018-01-13</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">서버 및 실습실 재부팅 안내</h3>
+                </a>
+                
+            </div>
+        </div>
+        
+        <div class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                <span class="bg-gray-700 text-white px-3 py-1 rounded-lg mr-3">2017</span>
+            </h2>
+            <div class="space-y-4">
+                
+                <a href="/2017-10-26-announce/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2017-10-26</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">정전으로 인한 서비스 중단 안내</h3>
+                </a>
+                
+                <a href="/2017-10-09-announce/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2017-10-09</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">임시 통합계정 발급 안내</h3>
+                </a>
+                
+                <a href="/2017-09-23-announce/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2017-09-23</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">GPU 서버 계정 신청 안내</h3>
+                </a>
+                
+                <a href="/2017-09-16-recruit/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2017-09-16</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">바쿠스에서 신입 회원을 모집합니다!</h3>
+                </a>
+                
+                <a href="/2017-09-10-announce/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2017-09-10</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">302동 실습실 사용 불가 안내</h3>
+                </a>
+                
+                <a href="/2017-08-21-reinstall/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2017-08-21</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">과방 PC 재설치 프로그램 요청 안내</h3>
+                </a>
+                
+                <a href="/2017-08-08-snucse/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2017-08-08</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">스누씨 서버 복구 안내</h3>
+                </a>
+                
+                <a href="/2017-08-05-snucse/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2017-08-05</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">스누씨 접속 장애 안내</h3>
+                </a>
+                
+                <a href="/2017-08-01-martini-%EB%B3%B4%EC%95%88-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%ED%9B%84-%EC%A0%91%EC%86%8D-%EC%9E%A5%EC%95%A0-%EC%95%88%EB%82%B4/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2017-08-01</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">martini 보안 업데이트 후 접속 장애 안내</h3>
+                </a>
+                
+                <a href="/2017-07-31-martini-%EB%B3%B4%EC%95%88-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%95%88%EB%82%B4/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2017-07-31</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">martini 보안 업데이트 안내</h3>
+                </a>
+                
+                <a href="/2017-05-19-%EB%B0%94%EC%BF%A0%EC%8A%A4-%EC%83%88-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-%EA%B0%9C%EC%84%A4/" class="block bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+                    <div class="flex flex-wrap items-center gap-3 mb-2">
+                        
+                        <span class="px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">공지</span>
+                        
+                        <span class="text-sm text-gray-500">2017-05-19</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900">바쿠스 새 홈페이지 개설</h3>
+                </a>
+                
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+    <footer class="bg-gray-900 text-gray-400 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8">
+            <div class="md:col-span-2">
+                <div class="flex items-center space-x-2 mb-4">
+                    <img src="/assets/images/logo.png" alt="Bacchus Logo" class="w-8 h-8">
+                    <span class="text-xl font-bold text-white">Bacchus</span>
+                </div>
+                <p class="text-sm mb-4">서울대학교 컴퓨터공학부 관리자 그룹<br>Seoul National University Administrator Group</p>
+                <p class="text-sm"><a href="mailto:contact@bacchus.snucse.org" class="hover:text-white transition">contact@bacchus.snucse.org</a></p>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-4">바로가기</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="/about/" class="hover:text-white transition">소개</a></li>
+                    <li><a href="/services/" class="hover:text-white transition">서비스</a></li>
+                    <li><a href="/members/" class="hover:text-white transition">구성원</a></li>
+                    <li><a href="/posts/" class="hover:text-white transition">공지사항</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-semibold mb-4">관련 서비스</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="https://sgs.snucse.org" target="_blank" class="hover:text-white transition">SGS 포털</a></li>
+                    <li><a href="https://www.snucse.org" target="_blank" class="hover:text-white transition">SNUCSE</a></li>
+                    <li><a href="https://cse.snu.ac.kr" target="_blank" class="hover:text-white transition">학부 홈페이지</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 mt-8 pt-8 text-sm text-center">
+            <p>&copy; 2026 Bacchus. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+<script>
+    document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+        document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+</script>
+
+</body>
+</html>

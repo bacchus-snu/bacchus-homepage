@@ -11,7 +11,6 @@ result-*
 
 # Dependencies
 node_modules/
-Gemfile.lock
 
 # IDE
 .idea/

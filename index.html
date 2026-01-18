@@ -1,0 +1,206 @@
+---
+layout: default
+title: 홈
+---
+<!-- Hero Section -->
+<section class="relative bg-gradient-to-br from-bacchus-600 via-bacchus-700 to-bacchus-800 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+        <div class="text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">Bacchus</h1>
+            <p class="text-xl md:text-2xl text-bacchus-100 mb-4">Special Interest Group on Computer Systems</p>
+            <p class="text-lg text-bacchus-200 max-w-2xl mx-auto">서울대학교를 기반으로 한, 컴퓨터 시스템 매니아들의 커뮤니티입니다.</p>
+        </div>
+    </div>
+</section>
+
+<!-- About Bacchus -->
+<section class="py-16 md:py-24 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">About Bacchus</h2>
+            <p class="text-gray-600 max-w-4xl mx-auto text-lg">컴퓨터 시스템을 사랑하는 사람들이 모여, 해당 분야에서 각종 연구와 개발을 진행하는 등 자유롭게 소통합니다.</p>
+        </div>
+        
+        <!-- Logo and Structure -->
+        <div class="relative max-w-5xl mx-auto">
+            <!-- Bacchus Logo at top center -->
+            <div class="flex justify-center mb-16">
+                <div class="w-24 h-24 flex items-center justify-center">
+                    <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Bacchus Logo" class="w-full h-full object-contain">
+                </div>
+            </div>
+            
+            <!-- Connection lines from logo to three categories -->
+            <div class="hidden md:block absolute top-24 left-1/2 transform -translate-x-1/2 ml-2 w-full" style="height: 120px;">
+                <svg class="w-full h-full" viewBox="0 0 800 120" preserveAspectRatio="none">
+                    <!-- Line to Development (left) -->
+                    <line x1="400" y1="0" x2="200" y2="120" stroke="#06b6d4" stroke-width="2" stroke-linecap="round"/>
+                    <!-- Line to Research (center) -->
+                    <line x1="400" y1="0" x2="400" y2="120" stroke="#06b6d4" stroke-width="2" stroke-linecap="round"/>
+                    <!-- Line to Networking (right) -->
+                    <line x1="400" y1="0" x2="600" y2="120" stroke="#06b6d4" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </div>
+            
+            <!-- Three categories in a row -->
+            <div class="grid md:grid-cols-3 gap-8 mt-16 md:mt-32">
+                <!-- Development -->
+                <div class="bg-white rounded-2xl p-6 shadow-lg border-t-4 border-bacchus-600">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Development</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-bacchus-600 mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>GPU Provisioning Service</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-bacchus-600 mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>컴퓨터공학부 핵심 서비스</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-bacchus-600 mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>인프라 운영 및 관리</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Research -->
+                <div class="bg-white rounded-2xl p-6 shadow-lg border-t-4 border-bacchus-600">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Research</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-bacchus-600 mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>GPU utilization</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-bacchus-600 mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>ML system</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-bacchus-600 mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>시스템 연구 및 코드 최적화</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Networking -->
+                <div class="bg-white rounded-2xl p-6 shadow-lg border-t-4 border-bacchus-600">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Networking</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-bacchus-600 mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>주기적인 네트워킹 파티</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-bacchus-600 mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>신입회원 환영회</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-bacchus-600 mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>커뮤니티 교류 활동</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Button at bottom of About Bacchus section -->
+            <div class="mt-12 text-center">
+                <a href="{{ '/about/' | relative_url }}" class="inline-flex items-center justify-center px-8 py-3 bg-bacchus-600 text-white font-semibold rounded-lg hover:bg-bacchus-700 transition shadow-lg">
+                    더 알아보기
+                    <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features -->
+<section class="py-16 md:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">자체 운영 서비스</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">바쿠스는 개발 작업의 일환으로, 컴퓨터공학부 학생들이 쾌적한 환경에서 공부할 수 있도록 다양한 서비스를 제공합니다.</p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition">
+                <div class="w-12 h-12 bg-bacchus-100 rounded-xl flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-bacchus-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/></svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">GPU 서버 제공</h3>
+                <p class="text-gray-600">ML/DL 실습을 위한 고성능 GPU 서버를 학부생과 대학원생에게 무료로 제공합니다.</p>
+            </div>
+            <div class="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition">
+                <div class="w-12 h-12 bg-bacchus-100 rounded-xl flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-bacchus-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"/></svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">실습 서버 운영</h3>
+                <p class="text-gray-600">Linux 실습 서버 martini, 웹 실습 서버 mimosa 등을 운영하여 학습 환경을 지원합니다.</p>
+            </div>
+            <div class="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition">
+                <div class="w-12 h-12 bg-bacchus-100 rounded-xl flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-bacchus-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">PC 환경 관리</h3>
+                <p class="text-gray-600">하드웨어 실습실과 과방의 PC 환경을 관리하고 필요한 소프트웨어를 설치합니다.</p>
+            </div>
+            <div class="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition">
+                <div class="w-12 h-12 bg-bacchus-100 rounded-xl flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-bacchus-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">통합계정 서비스</h3>
+                <p class="text-gray-600">학부 구성원들이 다양한 서비스를 편리하게 이용할 수 있도록 통합계정을 제공합니다.</p>
+            </div>
+            <div class="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition">
+                <div class="w-12 h-12 bg-bacchus-100 rounded-xl flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-bacchus-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/></svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">웹 서비스 관리</h3>
+                <p class="text-gray-600">학부 홈페이지와 커뮤니티 서비스 SNUCSE의 안정적인 운영을 관리합니다.</p>
+            </div>
+            <div class="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition">
+                <div class="w-12 h-12 bg-bacchus-100 rounded-xl flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-bacchus-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"/></svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">백업 및 보안</h3>
+                <p class="text-gray-600">중요한 자료의 주기적 백업을 실시하고 보안 결함에 신속히 대응합니다.</p>
+            </div>
+        </div>
+        
+        <!-- Button at bottom of Features section -->
+        <div class="mt-12 text-center">
+            <a href="{{ '/services/' | relative_url }}" class="inline-flex items-center justify-center px-8 py-3 bg-bacchus-600 text-white font-semibold rounded-lg hover:bg-bacchus-700 transition shadow-lg">
+                서비스 사용 안내
+                <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Recent Posts -->
+<section class="py-16 md:py-24 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center mb-8">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-900">최근 공지사항</h2>
+            <a href="{{ '/posts/' | relative_url }}" class="text-bacchus-600 hover:text-bacchus-700 font-medium">전체 보기 →</a>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {% for post in site.posts limit:6 %}
+            <a href="{{ post.url | relative_url }}" class="bg-white rounded-xl p-6 hover:shadow-lg transition block">
+                <span class="text-sm text-gray-500">{{ post.date | date: "%Y-%m-%d" }}</span>
+                <h3 class="text-lg font-semibold text-gray-900 mt-2 line-clamp-2">{{ post.title }}</h3>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="py-16 md:py-24 bg-white">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">문의하기</h2>
+        <p class="text-gray-600 mb-8">신규 가입, 제공 서비스 이용 등의 문의에 대해서는 아래의 이메일로 연락주시기 바랍니다.</p>
+        <a href="mailto:contact@bacchus.snucse.org" class="inline-flex items-center justify-center px-8 py-4 bg-bacchus-600 text-white font-semibold rounded-lg hover:bg-bacchus-700 transition shadow-lg">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            contact@bacchus.snucse.org
+        </a>
+    </div>
+</section>

@@ -1,18 +1,32 @@
-# bacchus-homepage
+# Bacchus Homepage
 
-바쿠스 홈페이지 만들어주는 hexo 사이트.
+Jekyll-based website development environment managed via **Nix Flakes**.
 
-## HOWTO
+## Quick Start
 
-```
-git clone https://github.com/bacchus-snu/bacchus-homepage.git
-cd bacchus-homepage/
+1. **Enter the development shell** (or install dependencies manually):
 
-# vim source/...md
-# 새로 만들거나 수정할 페이지를 알맞은 path에 Markdown으로 생성
+   ```bash
+   nix develop
+   ```
 
-# bacchus-homepage에 push
-git add .
-git commit -m "..."
-git push
-```
+2. **Install dependencies** (First time only):
+
+   ```bash
+   bundle install
+   ```
+
+3. **Start local server:**
+
+   ```bash
+   jekyll serve
+   ```
+
+> Access at: [http://localhost:4000](https://www.google.com/search?q=http://localhost:4000)
+
+## Available Commands
+
+| Command        | Description                    |
+| -------------- | ------------------------------ |
+| `jekyll serve` | Start local development server |
+| `jekyll build` | Build the site to `_site/`     |

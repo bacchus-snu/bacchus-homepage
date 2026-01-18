@@ -68,7 +68,7 @@ permalink: /members/
         <div class="bg-gradient-to-r from-bacchus-600 to-bacchus-700 rounded-2xl p-8 md:p-12 text-center text-white">
             <h2 class="text-2xl md:text-3xl font-bold mb-4">바쿠스에 함께하세요!</h2>
             <p class="text-bacchus-100 mb-6 max-w-xl mx-auto">바쿠스는 상시 신입회원을 모집합니다. 서버 관리와 인프라에 관심이 있다면 모집 공지를 확인해주세요.</p>
-            <a href="{{ '/announcement/2026-01-17-상시-신입회원-모집/' | relative_url }}" class="inline-flex items-center px-6 py-3 bg-white text-bacchus-700 font-semibold rounded-lg hover:bg-bacchus-50 transition shadow-lg">
+            <a href="{{ '/announcement/2026-01-18-상시-신입회원-모집/' | relative_url }}" class="inline-flex items-center px-6 py-3 bg-white text-bacchus-700 font-semibold rounded-lg hover:bg-bacchus-50 transition shadow-lg">
                 모집 공지 확인하기
                 <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
             </a>

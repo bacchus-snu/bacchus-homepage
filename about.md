@@ -21,98 +21,69 @@ permalink: /about/
 
             <!-- Membership progression flow -->
             <div class="max-w-6xl mx-auto">
-                <!-- Circle and Arrow row -->
-                <div class="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-4 mb-4">
-                    <!-- 가입 -->
-                    <div class="flex-1 flex justify-center">
-                        <div class="w-32 h-32 rounded-full bg-bacchus-600 flex items-center justify-center shadow-lg">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-4">
+                    <!-- 가입 그룹 -->
+                    <div class="flex-1 flex flex-col items-center">
+                        <div class="w-32 h-32 rounded-full bg-bacchus-600 flex items-center justify-center shadow-lg mb-4">
                             <span class="text-white font-bold text-xl">가입</span>
                         </div>
-                    </div>
-                    
-                    <!-- Arrow -->
-                    <div class="hidden md:block flex-shrink-0">
-                        <svg class="w-12 h-12 text-bacchus-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
-                        </svg>
-                    </div>
-                    
-                    <!-- 게스트 -->
-                    <div class="flex-1 flex justify-center">
-                        <div class="w-32 h-32 rounded-full bg-bacchus-500 flex items-center justify-center shadow-lg">
-                            <span class="text-white font-bold text-xl">게스트</span>
-                        </div>
-                    </div>
-                    
-                    <!-- Arrow -->
-                    <div class="hidden md:block flex-shrink-0">
-                        <svg class="w-12 h-12 text-bacchus-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
-                        </svg>
-                    </div>
-                    
-                    <!-- 정회원 -->
-                    <div class="flex-1 flex justify-center">
-                        <div class="w-32 h-32 rounded-full bg-bacchus-700 flex items-center justify-center shadow-lg">
-                            <span class="text-white font-bold text-xl">정회원</span>
-                        </div>
-                    </div>
-                    
-                    <!-- Arrow -->
-                    <div class="hidden md:block flex-shrink-0">
-                        <svg class="w-12 h-12 text-bacchus-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
-                        </svg>
-                    </div>
-                    
-                    <!-- 동문회원 -->
-                    <div class="flex-1 flex justify-center">
-                        <div class="w-32 h-32 rounded-full bg-gray-700 flex items-center justify-center shadow-lg">
-                            <span class="text-white font-bold text-xl">동문회원</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Text row -->
-                <div class="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-4">
-                    <!-- 가입 텍스트 -->
-                    <div class="flex-1">
                         <ul class="text-gray-600 text-center text-sm space-y-1 list-none">
                             <li>• 활동 부담 및 가입비 없음</li>
                             <li>• 세부 선호 분야 인터뷰 진행</li>
                             <li>• 인터뷰 결과와 관계없이 가입 가능</li>
                         </ul>
                     </div>
-                    
-                    <!-- Spacer for arrow -->
-                    <div class="hidden md:block flex-shrink-0 w-12"></div>
-                    
-                    <!-- 게스트 텍스트 -->
-                    <div class="flex-1">
+
+                    <!-- Arrow -->
+                    <div class="hidden md:flex flex-shrink-0 items-center">
+                        <svg class="w-12 h-12 text-bacchus-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                        </svg>
+                    </div>
+
+                    <!-- 게스트 그룹 -->
+                    <div class="flex-1 flex flex-col items-center">
+                        <div class="w-32 h-32 rounded-full bg-bacchus-500 flex items-center justify-center shadow-lg mb-4">
+                            <span class="text-white font-bold text-xl">게스트</span>
+                        </div>
                         <ul class="text-gray-600 text-center text-sm space-y-1 list-none">
                             <li>• 바쿠스 디스코드 참여</li>
                             <li>• 내부 task 구경 및 회원 간 소통</li>
                             <li>• 내부 커뮤니티 행사 참여</li>
                         </ul>
                     </div>
-                    
-                    <!-- Spacer for arrow -->
-                    <div class="hidden md:block flex-shrink-0 w-12"></div>
-                    
-                    <!-- 정회원 텍스트 -->
-                    <div class="flex-1">
+
+                    <!-- Arrow -->
+                    <div class="hidden md:flex flex-shrink-0 items-center">
+                        <svg class="w-12 h-12 text-bacchus-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                        </svg>
+                    </div>
+
+                    <!-- 정회원 그룹 -->
+                    <div class="flex-1 flex flex-col items-center">
+                        <div class="w-32 h-32 rounded-full bg-bacchus-700 flex items-center justify-center shadow-lg mb-4">
+                            <span class="text-white font-bold text-xl">정회원</span>
+                        </div>
                         <ul class="text-gray-600 text-center text-sm space-y-1 list-none">
                             <li>• 원하는 누구나 승급 가능</li>
                             <li>• 개발 task 자유 참여</li>
                             <li>• 연구 task 자유 참여</li>
                         </ul>
                     </div>
-                    
-                    <!-- Spacer for arrow -->
-                    <div class="hidden md:block flex-shrink-0 w-12"></div>
-                    
-                    <!-- 동문회원 텍스트 -->
-                    <div class="flex-1">
+
+                    <!-- Arrow -->
+                    <div class="hidden md:flex flex-shrink-0 items-center">
+                        <svg class="w-12 h-12 text-bacchus-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                        </svg>
+                    </div>
+
+                    <!-- 동문회원 그룹 -->
+                    <div class="flex-1 flex flex-col items-center">
+                        <div class="w-32 h-32 rounded-full bg-gray-700 flex items-center justify-center shadow-lg mb-4">
+                            <span class="text-white font-bold text-xl">동문회원</span>
+                        </div>
                         <ul class="text-gray-600 text-center text-sm space-y-1 list-none">
                             <li>• 일정 기간 정회원 유지 후 전환 가능</li>
                             <li>• 의무적 task 참여 부담 없음</li>

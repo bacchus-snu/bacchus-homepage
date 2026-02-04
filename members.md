@@ -59,7 +59,7 @@ permalink: /members/
                     </div>
                     <span class="inline-block px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full mb-3">임원</span>
                     <h3 class="text-xl font-semibold text-gray-900 mb-2">XXX</h3>
-                    <a href="mailto:whnbaek@bacchus.snucse.org" class="text-sm text-bacchus-600 hover:underline">xxx@bacchus.snucse.org</a>
+                    <a href="mailto:xxx@bacchus.snucse.org" class="text-sm text-bacchus-600 hover:underline">xxx@bacchus.snucse.org</a>
                     <p class="text-xs text-gray-500 mt-2">본인의 요청 하에 익명처리 되었습니다.</p>
                 </div>
             </div>

@@ -3,9 +3,11 @@
 <head>
     {% include head.html %}
 </head>
-<body class="bg-white">
+<body class="bg-white text-stone-700 antialiased min-h-screen flex flex-col">
     {% include nav.html %}
-    {{ content }}
+    <main class="flex-grow">
+        {{ content }}
+    </main>
     {% include footer.html %}
 </body>
 </html>

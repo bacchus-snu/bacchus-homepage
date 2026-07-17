@@ -3,152 +3,119 @@ layout: default
 title: 서비스
 permalink: /services/
 ---
-<section class="bg-gradient-to-br from-bacchus-600 to-bacchus-800 py-16 md:py-24">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">서비스</h1>
-        <p class="text-bacchus-100 text-lg">바쿠스가 제공하는 서비스 안내</p>
-    </div>
+<section class="max-w-3xl mx-auto px-6 pt-20 pb-16">
+    <h1 class="text-3xl md:text-4xl font-bold text-stone-900 tracking-tight mb-6">운영 서비스</h1>
+    <p class="text-lg text-stone-600 leading-relaxed">
+        바쿠스가 개발하고 운영하는 학부 서비스를 안내합니다.
+    </p>
 </section>
 
-<section class="py-12 bg-amber-50 border-b border-amber-200">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex items-start">
-            <svg class="w-6 h-6 text-amber-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-            <div class="ml-4">
-                <h3 class="text-lg font-semibold text-amber-800 mb-2">서비스 이용 문의 안내</h3>
-                <p class="text-amber-700 mb-3">저희의 도움이 필요하신 경우, <strong>contact@bacchus.snucse.org</strong>로 최소한 일주일의 기간을 두고 요청해주십시오.</p>
-                <p class="text-sm text-amber-600">바쿠스는 근로 장학생 집단이 아니므로 행정실에서 근무하지 않으며 출퇴근을 하지도 않습니다.</p>
-            </div>
+<section class="border-t border-stone-200">
+    <div class="max-w-3xl mx-auto px-6 py-16">
+        <div class="border-l-2 border-stone-300 pl-5 mb-16">
+            <h3 class="font-semibold text-stone-900 mb-1.5">서비스 이용 문의</h3>
+            <p class="text-stone-600 text-[15px] mb-1">도움이 필요하신 경우 <a href="mailto:contact@bacchus.snucse.org" class="font-mono text-accent hover:underline">contact@bacchus.snucse.org</a>로 최소 일주일의 기간을 두고 요청해 주십시오.</p>
+            <p class="text-stone-500 text-sm">바쿠스는 근로 장학생 집단이 아니므로 행정실에서 근무하지 않으며 출퇴근을 하지도 않습니다.</p>
         </div>
-    </div>
-</section>
 
-<section class="py-16 md:py-24">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- SGS -->
         <div class="mb-16">
-            <div class="bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl overflow-hidden p-8 md:p-12">
-                <span class="inline-block px-3 py-1 bg-bacchus-500 text-white text-sm font-medium rounded-full mb-4">GPU 서비스</span>
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">SNUCSE GPU Service (SGS) 3.0</h2>
-                <p class="text-gray-300 mb-8 max-w-2xl">서울대학교 컴퓨터공학부 구성원에게 무료로 GPU 서버를 제공합니다. Kubernetes 기반의 현대적인 인프라로 여러분의 연구를 가속하세요.</p>
-                
-                <div class="grid md:grid-cols-2 gap-6 mb-8">
-                    <div class="bg-gray-800/50 rounded-xl p-6 border border-gray-700">
-                        <div class="flex justify-between items-start mb-4">
-                            <h3 class="text-xl font-bold text-white">bentley</h3>
-                            <span class="px-2 py-1 bg-gray-700 text-gray-300 text-xs rounded">DGX A100</span>
-                        </div>
-                        <ul class="space-y-2 text-gray-300 text-sm">
-                            <li class="flex items-start"><span class="text-bacchus-400 mr-2">•</span>NVIDIA A100 40GB x 8</li>
-                            <li class="flex items-start"><span class="text-bacchus-400 mr-2">•</span>AMD EPYC 7742 x 2 (256 threads)</li>
-                            <li class="flex items-start"><span class="text-bacchus-400 mr-2">•</span>1024 GB DDR4 RAM</li>
-                            <li class="flex items-start"><span class="text-bacchus-400 mr-2">•</span>11.52 TB Data Storage</li>
-                        </ul>
-                    </div>
+            <h2 class="text-xl font-bold text-stone-900 mb-2">GPU 서버 — SNUCSE GPU Service (SGS)</h2>
+            <p class="text-stone-600 leading-relaxed mb-8">
+                SGS는 학부 구성원에게 GPU 서버를 무료로 제공하는 서비스입니다.
+                딥러닝 실습이나 연구에 고성능 GPU가 필요하다면 누구나 신청해 사용할 수 있습니다.
+                Kubernetes 기반 인프라 위에서 아래 4대의 서버를 운영하고 있습니다.
+            </p>
 
-                    <div class="bg-gray-800/50 rounded-xl p-6 border border-gray-700">
-                        <div class="flex justify-between items-start mb-4">
-                            <h3 class="text-xl font-bold text-white">ferrari</h3>
-                            <span class="px-2 py-1 bg-gray-700 text-gray-300 text-xs rounded">XL675 Gen10+</span>
-                        </div>
-                        <ul class="space-y-2 text-gray-300 text-sm">
-                            <li class="flex items-start"><span class="text-bacchus-400 mr-2">•</span>NVIDIA A100 80GB x 8</li>
-                            <li class="flex items-start"><span class="text-bacchus-400 mr-2">•</span>AMD EPYC 7763 x 2 (256 threads)</li>
-                            <li class="flex items-start"><span class="text-bacchus-400 mr-2">•</span>1024 GB DDR4 RAM</li>
-                            <li class="flex items-start"><span class="text-bacchus-400 mr-2">•</span>7.68 TB Data Storage</li>
-                        </ul>
-                    </div>
+            <div class="overflow-x-auto mb-8">
+                <table class="w-full text-sm border-collapse">
+                    <thead>
+                        <tr class="border-b border-stone-300 text-left">
+                            <th class="py-2.5 pr-4 font-semibold text-stone-900">서버</th>
+                            <th class="py-2.5 pr-4 font-semibold text-stone-900">GPU</th>
+                            <th class="py-2.5 pr-4 font-semibold text-stone-900">CPU</th>
+                            <th class="py-2.5 pr-4 font-semibold text-stone-900">메모리</th>
+                            <th class="py-2.5 font-semibold text-stone-900">저장소</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-stone-200">
+                        <tr>
+                            <td class="py-2.5 pr-4 font-mono text-stone-900">bentley</td>
+                            <td class="py-2.5 pr-4 text-stone-600">A100 40GB × 8</td>
+                            <td class="py-2.5 pr-4 text-stone-600">EPYC 7742 × 2</td>
+                            <td class="py-2.5 pr-4 text-stone-600">1024GB</td>
+                            <td class="py-2.5 text-stone-600">11.52TB</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2.5 pr-4 font-mono text-stone-900">ferrari</td>
+                            <td class="py-2.5 pr-4 text-stone-600">A100 80GB × 8</td>
+                            <td class="py-2.5 pr-4 text-stone-600">EPYC 7763 × 2</td>
+                            <td class="py-2.5 pr-4 text-stone-600">1024GB</td>
+                            <td class="py-2.5 text-stone-600">7.68TB</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2.5 pr-4 font-mono text-stone-900">porsche</td>
+                            <td class="py-2.5 pr-4 text-stone-600">A100 40GB × 8</td>
+                            <td class="py-2.5 pr-4 text-stone-600">EPYC 75F3 × 2</td>
+                            <td class="py-2.5 pr-4 text-stone-600">1024GB</td>
+                            <td class="py-2.5 text-stone-600">7.68TB</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2.5 pr-4 font-mono text-stone-900">ford</td>
+                            <td class="py-2.5 pr-4 text-stone-600">A100 80GB × 4</td>
+                            <td class="py-2.5 pr-4 text-stone-600">EPYC 75F3</td>
+                            <td class="py-2.5 pr-4 text-stone-600">768GB</td>
+                            <td class="py-2.5 text-stone-600">7.68TB</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-                    <div class="bg-gray-800/50 rounded-xl p-6 border border-gray-700">
-                        <div class="flex justify-between items-start mb-4">
-                            <h3 class="text-xl font-bold text-white">porsche</h3>
-                            <span class="px-2 py-1 bg-gray-700 text-gray-300 text-xs rounded">XL675d</span>
-                        </div>
-                        <ul class="space-y-2 text-gray-300 text-sm">
-                            <li class="flex items-start"><span class="text-bacchus-400 mr-2">•</span>NVIDIA A100 40GB x 8</li>
-                            <li class="flex items-start"><span class="text-bacchus-400 mr-2">•</span>AMD EPYC 75F3 x 2 (128 threads)</li>
-                            <li class="flex items-start"><span class="text-bacchus-400 mr-2">•</span>1024 GB DDR4 RAM</li>
-                            <li class="flex items-start"><span class="text-bacchus-400 mr-2">•</span>7.68 TB Data Storage</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-gray-800/50 rounded-xl p-6 border border-gray-700">
-                        <div class="flex justify-between items-start mb-4">
-                            <h3 class="text-xl font-bold text-white">ford</h3>
-                            <span class="px-2 py-1 bg-gray-700 text-gray-300 text-xs rounded">XL645 Gen10+</span>
-                        </div>
-                        <ul class="space-y-2 text-gray-300 text-sm">
-                            <li class="flex items-start"><span class="text-bacchus-400 mr-2">•</span>NVIDIA A100 80GB x 4</li>
-                            <li class="flex items-start"><span class="text-bacchus-400 mr-2">•</span>AMD EPYC 75F3 (64 threads)</li>
-                            <li class="flex items-start"><span class="text-bacchus-400 mr-2">•</span>768 GB DDR4 RAM</li>
-                            <li class="flex items-start"><span class="text-bacchus-400 mr-2">•</span>7.68 TB Data Storage</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="https://sgs.snucse.org" target="_blank" class="inline-flex items-center justify-center px-6 py-3 bg-bacchus-500 text-white font-semibold rounded-lg hover:bg-bacchus-600 transition">SGS 포털 바로가기</a>
-                    <a href="https://sgs-docs.snucse.org" target="_blank" class="inline-flex items-center justify-center px-6 py-3 border border-gray-600 text-gray-300 font-semibold rounded-lg hover:bg-gray-700 transition">매뉴얼 보기</a>
-                </div>
+            <div class="flex flex-wrap gap-3">
+                <a href="https://sgs.snucse.org" target="_blank" rel="noopener" class="inline-flex items-center px-4 py-2 border border-stone-300 rounded-md text-sm font-medium text-stone-800 hover:border-stone-900 transition">SGS 포털 바로가기 ↗</a>
+                <a href="https://sgs-docs.snucse.org" target="_blank" rel="noopener" class="inline-flex items-center px-4 py-2 border border-stone-300 rounded-md text-sm font-medium text-stone-800 hover:border-stone-900 transition">이용 매뉴얼 ↗</a>
             </div>
         </div>
 
-        <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-white border border-gray-200 rounded-2xl p-6 md:p-8">
-                <h3 class="text-xl font-bold text-gray-900 mb-3">PC 환경</h3>
-                <p class="text-gray-600 mb-4">실습용 PC의 소프트웨어 설치 및 업데이트를 담당하고 있습니다.</p>
-                <div class="space-y-4">
-                    <div class="bg-gray-50 rounded-lg p-4">
-                        <h4 class="font-semibold text-gray-900 mb-2">하드웨어 실습실 (302-310-2)</h4>
-                        <p class="text-sm text-gray-600">Linux 환경 제공</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-lg p-4">
-                        <h4 class="font-semibold text-gray-900 mb-2">과방 (301-314)</h4>
-                        <p class="text-sm text-gray-600">C02-C10: Windows 10, 그 외: Linux</p>
-                    </div>
+        <!-- 기타 서비스 -->
+        <div class="divide-y divide-stone-200 border-y border-stone-200">
+            <div class="grid sm:grid-cols-[8rem_1fr] gap-x-6 gap-y-2 py-6">
+                <h3 class="font-semibold text-stone-900">실습 서버 및 VM</h3>
+                <div class="text-stone-600 text-[15px]">
+                    <p class="mb-2">수업 실습을 위한 리눅스 서버와 가상 환경을 제공합니다.</p>
+                    <ul class="text-sm space-y-1 text-stone-500">
+                        <li>· <span class="font-mono">martini</span> — 리눅스 실습 서버 (통합계정으로 로그인)</li>
+                        <li>· 수업 실습용 VM — 요청 시 수업 전용 가상머신 환경 제공</li>
+                    </ul>
                 </div>
             </div>
-
-            <div class="bg-white border border-gray-200 rounded-2xl p-6 md:p-8">
-                <h3 class="text-xl font-bold text-gray-900 mb-3">실습 서버 및 VM</h3>
-                <p class="text-gray-600 mb-4">실습을 위한 리눅스 서버와 수업용 가상 환경을 제공합니다.</p>
-                <div class="space-y-4">
-                    <div class="bg-gray-50 rounded-lg p-4">
-                        <h4 class="font-semibold text-gray-900">martini</h4>
-                        <p class="text-sm text-gray-600">Linux 실습용 서버 (통합계정 로그인)</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-lg p-4">
-                        <h4 class="font-semibold text-gray-900">수업 실습용 VM 제공</h4>
-                        <p class="text-sm text-gray-600">전공 수업의 원활한 실습 진행을 위해 요청 시 수업 전용 가상머신(VM) 환경을 제공합니다.</p>
-                    </div>
+            <div class="grid sm:grid-cols-[8rem_1fr] gap-x-6 gap-y-2 py-6">
+                <h3 class="font-semibold text-stone-900">실습실 PC</h3>
+                <div class="text-stone-600 text-[15px]">
+                    <p class="mb-2">실습용 PC의 소프트웨어 설치와 업데이트를 담당합니다.</p>
+                    <ul class="text-sm space-y-1 text-stone-500">
+                        <li>· 하드웨어 실습실(302-310-2) — 리눅스 환경 제공</li>
+                        <li>· 과방(301-314) — C02-C10은 Windows 10, 그 외 리눅스</li>
+                    </ul>
                 </div>
             </div>
-
-            <div class="bg-white border border-gray-200 rounded-2xl p-6 md:p-8">
-                <h3 class="text-xl font-bold text-gray-900 mb-3">웹 페이지 관리</h3>
-                <p class="text-gray-600 mb-4">다음의 웹 서비스 운영을 관리하고 있습니다.</p>
-                <div class="space-y-3">
-                    <a href="https://cse.snu.ac.kr" target="_blank" class="flex items-center justify-between bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition">
-                        <div><h4 class="font-semibold text-gray-900">학부 홈페이지</h4><p class="text-sm text-gray-500">cse.snu.ac.kr</p></div>
-                        <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
-                    </a>
-                    <a href="https://www.snucse.org" target="_blank" class="flex items-center justify-between bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition">
-                        <div><h4 class="font-semibold text-gray-900">SNUCSE</h4><p class="text-sm text-gray-500">학부 커뮤니티</p></div>
-                        <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
-                    </a>
+            <div class="grid sm:grid-cols-[8rem_1fr] gap-x-6 gap-y-2 py-6">
+                <h3 class="font-semibold text-stone-900">웹 서비스</h3>
+                <div class="text-stone-600 text-[15px]">
+                    <p class="mb-2">아래 웹 서비스의 운영을 관리합니다.</p>
+                    <ul class="text-sm space-y-1 text-stone-500">
+                        <li>· <a href="https://cse.snu.ac.kr" target="_blank" rel="noopener" class="text-accent hover:underline">학부 홈페이지</a> (cse.snu.ac.kr)</li>
+                        <li>· <a href="https://www.snucse.org" target="_blank" rel="noopener" class="text-accent hover:underline">SNUCSE</a> — 학부생 온라인 커뮤니티</li>
+                    </ul>
                 </div>
             </div>
-
-            <div class="bg-white border border-gray-200 rounded-2xl p-6 md:p-8">
-                <h3 class="text-xl font-bold text-gray-900 mb-3">가상화 인프라</h3>
-                <p class="text-gray-600 mb-4">수업 실습용 VM 및 내부 서비스를 호스팅하는 가상화 클러스터입니다.</p>
-                <div class="bg-gray-50 rounded-lg p-4">
-                    <h4 class="font-semibold text-gray-900">fizz, gin, ramos</h4>
-                    <p class="text-xs text-gray-500 mb-3">Supermicro 1019P-WTR</p>
-                    <ul class="text-sm text-gray-600 space-y-1">
-                        <li><strong>OS:</strong> Proxmox VE (Debian 12)</li>
-                        <li><strong>CPU:</strong> Intel Xeon Silver 4216 @ 2.1GHz (32 vCPUs)</li>
-                        <li><strong>RAM:</strong> 128GB DDR4</li>
-                        <li><strong>Storage:</strong> SATA3 SSD</li>
+            <div class="grid sm:grid-cols-[8rem_1fr] gap-x-6 gap-y-2 py-6">
+                <h3 class="font-semibold text-stone-900">가상화 인프라</h3>
+                <div class="text-stone-600 text-[15px]">
+                    <p class="mb-2">수업 실습용 VM과 내부 서비스를 올리는 가상화 클러스터(Proxmox VE)입니다.</p>
+                    <ul class="text-sm space-y-1 text-stone-500">
+                        <li>· <span class="font-mono">fizz · gin · ramos</span> — Supermicro 1019P-WTR</li>
+                        <li>· Xeon Silver 4216 (32 vCPUs) · 128GB RAM · SATA3 SSD</li>
                     </ul>
                 </div>
             </div>

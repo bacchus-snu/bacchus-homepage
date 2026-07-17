@@ -1,35 +1,32 @@
-<footer class="bg-gray-900 text-gray-400 py-12">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid md:grid-cols-4 gap-8">
-            <div class="md:col-span-2">
-                <div class="flex items-center space-x-2 mb-4">
-                    <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Bacchus Logo" class="w-8 h-8">
-                    <span class="text-xl font-bold text-white">Bacchus</span>
+<footer class="border-t border-stone-200 mt-4">
+    <div class="max-w-3xl mx-auto px-6 py-10">
+        <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-6">
+            <div>
+                <p class="font-semibold text-stone-900 mb-1">Bacchus</p>
+                <p class="text-sm text-stone-500">서울대학교 컴퓨터공학부 시스템 관리자 동아리</p>
+                <a href="mailto:contact@bacchus.snucse.org" class="font-mono text-sm text-accent hover:underline">contact@bacchus.snucse.org</a>
+            </div>
+            <div class="flex gap-14 text-sm">
+                <div>
+                    <p class="text-stone-400 mb-2.5">페이지</p>
+                    <ul class="space-y-2">
+                        <li><a href="{{ '/about/' | relative_url }}" class="text-stone-600 hover:text-stone-900 transition">소개</a></li>
+                        <li><a href="{{ '/services/' | relative_url }}" class="text-stone-600 hover:text-stone-900 transition">서비스</a></li>
+                        <li><a href="{{ '/members/' | relative_url }}" class="text-stone-600 hover:text-stone-900 transition">대표단</a></li>
+                        <li><a href="{{ '/posts/' | relative_url }}" class="text-stone-600 hover:text-stone-900 transition">공지사항</a></li>
+                    </ul>
                 </div>
-                <p class="text-sm mb-4">서울대학교를 기반으로 한, 컴퓨터 시스템 매니아들의 커뮤니티<br>Special Interest Group on Computer Systems</p>
-                <p class="text-sm"><a href="mailto:contact@bacchus.snucse.org" class="hover:text-white transition">contact@bacchus.snucse.org</a></p>
-            </div>
-            <div>
-                <h4 class="text-white font-semibold mb-4">바로가기</h4>
-                <ul class="space-y-2 text-sm">
-                    <li><a href="{{ '/about/' | relative_url }}" class="hover:text-white transition">소개</a></li>
-                    <li><a href="{{ '/services/' | relative_url }}" class="hover:text-white transition">서비스</a></li>
-                    <li><a href="{{ '/members/' | relative_url }}" class="hover:text-white transition">구성원</a></li>
-                    <li><a href="{{ '/posts/' | relative_url }}" class="hover:text-white transition">공지사항</a></li>
-                </ul>
-            </div>
-            <div>
-                <h4 class="text-white font-semibold mb-4">관련 서비스</h4>
-                <ul class="space-y-2 text-sm">
-                    <li><a href="https://sgs.snucse.org" target="_blank" class="hover:text-white transition">SGS 포털</a></li>
-                    <li><a href="https://www.snucse.org" target="_blank" class="hover:text-white transition">SNUCSE</a></li>
-                    <li><a href="https://cse.snu.ac.kr" target="_blank" class="hover:text-white transition">학부 홈페이지</a></li>
-                </ul>
+                <div>
+                    <p class="text-stone-400 mb-2.5">운영 서비스</p>
+                    <ul class="space-y-2">
+                        <li><a href="https://sgs.snucse.org" target="_blank" rel="noopener" class="text-stone-600 hover:text-stone-900 transition">SGS 포털</a></li>
+                        <li><a href="https://www.snucse.org" target="_blank" rel="noopener" class="text-stone-600 hover:text-stone-900 transition">SNUCSE</a></li>
+                        <li><a href="https://cse.snu.ac.kr" target="_blank" rel="noopener" class="text-stone-600 hover:text-stone-900 transition">학부 홈페이지</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="border-t border-gray-800 mt-8 pt-8 text-sm text-center">
-            <p>&copy; {{ 'now' | date: '%Y' }} Bacchus. All rights reserved.</p>
-        </div>
+        <p class="text-xs text-stone-400 mt-10">&copy; {{ 'now' | date: '%Y' }} Bacchus. All rights reserved.</p>
     </div>
 </footer>
 <script>
